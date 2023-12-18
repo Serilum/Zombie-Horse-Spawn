@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Zombie%20Horse%20Spawn"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Zombie%20Horse%20Spawn"
 logoFile="icon.png"
 
 [[mods]]
 modId="zombiehorsespawn"
-version="4.7"
+version="4.8"
 displayName="Zombie Horse Spawn"
-displayURL="https://curseforge.com/minecraft/mc-mods/zombie-horse-spawn"
+displayURL="https://serilum.com/mod/zombie-horse-spawn"
 authors="Rick South"
 description='''Allows the zombie horse to spawn with a zombie riding it and other tweaks.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.zombiehorsespawn]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.13,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.zombiehorsespawn]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.4]"
     ordering="NONE"
