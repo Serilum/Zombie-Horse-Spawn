@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="zombiehorsespawn"
-version="4.9"
+version="5.0"
 displayName="Zombie Horse Spawn"
 displayURL="https://serilum.com/mod/zombie-horse-spawn"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.zombiehorsespawn]]
     modId="collective"
     mandatory=true
-    versionRange="[7.52,)"
+    versionRange="[7.54,)"
     ordering="NONE"
     side="BOTH"
 
