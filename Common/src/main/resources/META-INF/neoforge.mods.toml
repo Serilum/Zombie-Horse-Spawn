@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Zombie%20Horse%20Spawn"
+logoFile="icon.png"
+
+[[mods]]
+modId="zombiehorsespawn"
+version="5.2"
+displayName="Zombie Horse Spawn"
+displayURL="https://serilum.com/mod/zombie-horse-spawn"
+authors="Rick South"
+description='''Allows the zombie horse to spawn with a zombie riding it and other tweaks.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+akanealw, Alister, Andrean Olgo, aternosorg, Cherriesaurus, MWS, t128, Tyler Behl, XAgent, ตัวตรึง พระนคร   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.zombiehorsespawn]]
+    modId="collective"
+    type="required"
+    versionRange="[8.16,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.zombiehorsespawn]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.1.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config = "zombiehorsespawn.mixins.json"
