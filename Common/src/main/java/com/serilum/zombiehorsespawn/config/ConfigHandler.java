@@ -1,7 +1,7 @@
-package com.natamus.zombiehorsespawn.config;
+package com.serilum.zombiehorsespawn.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.zombiehorsespawn.util.Reference;
+import com.serilum.zombiehorsespawn.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

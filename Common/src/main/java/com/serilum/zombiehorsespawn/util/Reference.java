@@ -1,8 +1,8 @@
-package com.natamus.zombiehorsespawn.util;
+package com.serilum.zombiehorsespawn.util;
 
 public class Reference {
 	public static final String MOD_ID = "zombiehorsespawn";
 	public static final String NAME = "Zombie Horse Spawn";
-	public static final String VERSION = "5.2";
+	public static final String VERSION = "5.3";
 	public static final String ACCEPTED_VERSIONS = "[1.21.1]";
 }

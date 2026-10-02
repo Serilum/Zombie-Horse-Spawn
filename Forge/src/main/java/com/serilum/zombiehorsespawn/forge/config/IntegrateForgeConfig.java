@@ -1,7 +1,7 @@
-package com.natamus.zombiehorsespawn.forge.config;
+package com.serilum.zombiehorsespawn.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.zombiehorsespawn.util.Reference;
+import com.serilum.zombiehorsespawn.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
