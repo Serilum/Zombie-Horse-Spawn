@@ -1,10 +1,10 @@
-package com.natamus.zombiehorsespawn;
+package com.serilum.zombiehorsespawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.zombiehorsespawn.forge.config.IntegrateForgeConfig;
-import com.natamus.zombiehorsespawn.forge.events.ForgeZombieHorseEvent;
-import com.natamus.zombiehorsespawn.util.Reference;
+import com.serilum.zombiehorsespawn.forge.config.IntegrateForgeConfig;
+import com.serilum.zombiehorsespawn.forge.events.ForgeZombieHorseEvent;
+import com.serilum.zombiehorsespawn.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
