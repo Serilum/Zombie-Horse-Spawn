@@ -1,7 +1,7 @@
-package com.natamus.zombiehorsespawn;
+package com.serilum.zombiehorsespawn;
 
 import com.natamus.collective.objects.SAMObject;
-import com.natamus.zombiehorsespawn.config.ConfigHandler;
+import com.serilum.zombiehorsespawn.config.ConfigHandler;
 import net.minecraft.world.entity.EntityTypes;
 
 public class ModCommon {
