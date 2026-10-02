@@ -1,9 +1,9 @@
-package com.natamus.zombiehorsespawn;
+package com.serilum.zombiehorsespawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.zombiehorsespawn.events.ZombieHorseEvent;
-import com.natamus.zombiehorsespawn.util.Reference;
+import com.serilum.zombiehorsespawn.events.ZombieHorseEvent;
+import com.serilum.zombiehorsespawn.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;

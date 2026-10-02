@@ -1,7 +1,7 @@
-package com.natamus.zombiehorsespawn.fabric.config;
+package com.serilum.zombiehorsespawn.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.zombiehorsespawn.util.Reference;
+import com.serilum.zombiehorsespawn.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

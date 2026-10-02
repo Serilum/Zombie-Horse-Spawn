@@ -1,6 +1,6 @@
-package com.natamus.zombiehorsespawn.forge.events;
+package com.serilum.zombiehorsespawn.forge.events;
 
-import com.natamus.zombiehorsespawn.events.ZombieHorseEvent;
+import com.serilum.zombiehorsespawn.events.ZombieHorseEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.TickEvent.LevelTickEvent;
