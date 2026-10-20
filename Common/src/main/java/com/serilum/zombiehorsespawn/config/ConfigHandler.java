@@ -13,6 +13,7 @@ public class ConfigHandler extends DuskConfig {
 	@Entry(min = 0, max = 1.0) public static double chanceSurfaceZombieHasHorse = 0.05;
 	@Entry public static boolean shouldBurnZombieHorsesInDaylight = true;
 	@Entry public static boolean onlySpawnZombieHorsesOnSurface = true;
+	@Entry public static boolean zombieHorsesCanDespawn = true;
 	@Entry(registry = "dimension") public static String dimensionsToSpawnIn = "";
 	@Entry(registry = "worldgen/biome") public static String biomesToSpawnIn = "";
 
@@ -25,6 +26,9 @@ public class ConfigHandler extends DuskConfig {
 		));
 		configMetaData.put("onlySpawnZombieHorsesOnSurface", Arrays.asList(
 			"If enabled, a zombie horse with rider will only spawn on the surface."
+		));
+		configMetaData.put("zombieHorsesCanDespawn", Arrays.asList(
+			"If enabled, zombie horses spawned by the mod despawn like other monsters when no player is near. A horse with a saddle, an owner, a name tag or a lead stays."
 		));
 		configMetaData.put("dimensionsToSpawnIn", Arrays.asList(
 			"Dimensions in which zombies can spawn riding a zombie horse, separated by a comma. Leave empty for every dimension. For example: 'minecraft:overworld'."
